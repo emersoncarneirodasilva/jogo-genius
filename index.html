@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="shortcut icon" href="imgs/simon-game.png" type="image/x-icon">    
+    <link rel="stylesheet" href="genius.css">
+    <title>Jogo Genius</title>
+</head>
+<body>
+    <video autoplay muted loop id="myVideo">
+        <source src="video/pexels-rostislav-uzunov-5680034.mp4" type="video/mp4">
+    </video>
+
+    <div class="title">
+        <h1><em>Genius! Let's play</em></h1>
+    </div>
+
+    <div class="main-game">    
+        <div class="genius">
+            <div class="green"></div>
+            <div class="red"></div>
+            <div class="yellow"></div>            
+            <div class="blue"></div>
+        </div>
+    </div>  
+    
+    <div id="audio">
+        <audio preload="metadata" controls autoplay loop>
+            <source src="audio/How's It Supposed to Feel (Instrumental) - NEFFEX.mp3" type="audio/mp3">
+        </audio>
+    </div>    
+    
+    <script src="genius.js"></script>
+</body>
+</html>
